@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "simple-bot",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "ts-node",
+      "args": ["simplebot/test-bot.ts"],
+      "cwd": "${workspaceRoot}",
+      "internalConsoleOptions": "openOnSessionStart",
+      "skipFiles": ["<node_internals>/**", "node_modules/**"]
+    }
+  ]
+}

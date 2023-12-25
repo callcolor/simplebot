@@ -1,0 +1,14 @@
+node_modules/
+out/
+dist/
+cache/
+public/terrain/*.png
+public/terrain/*.jp2
+public/terrain/*.j2c
+public/terrain-ascii/*.xyz
+public/ray-cast/*.png
+.*_config.ts
+samples/
+temp/
+tmp/
+deprecated/
